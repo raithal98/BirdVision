@@ -6,7 +6,7 @@ from marshmallow import Schema, fields, validate, ValidationError
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///products.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['JWT_SECRET_KEY'] = 'abcd'  # Change this to a more secure secret key
+app.config['JWT_SECRET_KEY'] = ''  # Change this to add a secure secret key
 db = SQLAlchemy(app)
 jwt = JWTManager(app)
 
