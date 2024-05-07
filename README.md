@@ -55,4 +55,3 @@ curl -X PUT -H "Authorization: Bearer <JWT>" -H "Content-Type: application/json"
 ```
 curl -X DELETE -H "Authorization: Bearer <JWT>" http://127.0.0.1:5000/products/1
 ```
-
